@@ -12,7 +12,7 @@ RUN yarn
 # Build
 RUN yarn build
 
-EXPOSE 3000
+EXPOSE 80
 
 # Start
 CMD yarn start:prod
