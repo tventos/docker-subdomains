@@ -4,11 +4,11 @@ services:
     build: ./server
     container_name: server
     ports:
-      - "3000:3000"
-  client:
-    build: ./client
-    container_name: client
-    depends_on:
-      - server
-    ports:
       - "80:80"
+#  client:
+#    build: ./client
+#    container_name: client
+#    depends_on:
+#      - server
+#    ports:
+#      - "80:80"
