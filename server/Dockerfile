@@ -6,6 +6,9 @@ COPY .. /server/
 # Install Yarn
 RUN npm install -g --force yarn
 
+# Install deps
+RUN yarn
+
 # Build
 RUN yarn build
 
